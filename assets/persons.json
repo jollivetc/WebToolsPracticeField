@@ -1,0 +1,12 @@
+[
+    {
+        "lastname":"Dupont",
+        "firstname":"Robert",
+        "birthdate": "1979-09-25T14:30:37.300Z"
+    },
+    {
+        "lastname":"Dupont",
+        "firstname":"Frédéric",
+        "birthdate": "2000-03-25T09:25:37.300Z"
+    }
+]
