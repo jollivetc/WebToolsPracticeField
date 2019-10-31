@@ -17,8 +17,12 @@ const helper = (function(){
         $('.display-3').text(data.title);
         $('#description').text(data.description)
     }
+    function sendServer(){
+        $.post( "nofound", { search: $('#search').val(), secret: "i am secret" } );
+    }
     return {
         retrieveInformations,
-        handleError
+        handleError,
+        sendServer
     }    
 })()

@@ -15,4 +15,6 @@
     }
     ev = ev+'ick';  
     $('.btn-lg').unbind('click').on(ev, fun)
+
+    $('#searchBtn').click(helper.sendServer)
 })();
